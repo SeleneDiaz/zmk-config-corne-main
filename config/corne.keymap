@@ -44,10 +44,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp BACKSLASH     &kp EXCL      &kp AT        &kp POUND     &kp DOLLAR    &kp PERCENT     &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS
-&bt BT_CLR        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp N6     &kp N7         &kp N8        &kp N9                &kp N0                 &kp EQUAL
-&kp LEFT_BRACKET  &trans        &trans        &trans        &trans        &trans          &trans     &trans         &trans        &trans                &trans                 &trans
-                                              &kp LGUI      &trans        &kp SPACE       &kp RET    &trans         &kp RALT
+&kp BACKSLASH     &kp EXCL        &kp AT        &kp POUND     &kp DOLLAR       &kp PERCENT    &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS
+&kp MINUS         &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4     &kp N5         &kp N6          &kp N7         &kp N8        &kp N9                &kp N0                 &kp EQUAL
+&kp LEFT_BRACKET  &kp LEFT_BRACE  &kp GRAVE     &kp COLON     &kp RIGHT_BRACE  &kp TILDE      &kp UNDERSCORE  &kp PIPE       &trans        &trans                &trans                 &kp RIGHT_BRACKET
+                                                &trans        &trans           &trans         &trans          &trans         &tog 1
             >;
         };
 
