@@ -21,19 +21,19 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB           &kp Q               &kp W  &kp E         &kp R    &kp T             &kp Y    &kp U        &kp I         &kp O    &kp P                        &kp ESCAPE
-&kp BACKSPACE     &mt LEFT_CONTROL A  &kp S  &kp D         &lt 5 F  &kp G             &kp H    &kp J        &kp K         &kp L    &mt RIGHT_CONTROL SEMICOLON  &kp APOSTROPHE
-&kp LEFT_CONTROL  &mt LEFT_SHIFT Z    &kp X  &kp C         &kp V    &kp B             &kp N    &kp M        &kp COMMA     &kp DOT  &mt RIGHT_SHIFT SLASH        &kp EQUAL
-                                             &kp LEFT_ALT  &mo 2    &kp LEFT_SHIFT    &kp RET  &lt 3 SPACE  &kp LEFT_WIN
+&kp TAB        &kp Q             &kp W  &kp E         &kp R    &kp T               &kp Y    &kp U        &kp I         &kp O    &kp P                        &kp ESCAPE
+&kp BACKSPACE  &kp A             &kp S  &kp D         &lt 5 F  &kp G               &kp H    &kp J        &kp K         &kp L    &mt RIGHT_CONTROL SEMICOLON  &kp APOSTROPHE
+&kp DELETE     &mt LEFT_SHIFT Z  &kp X  &kp C         &kp V    &kp B               &kp N    &kp M        &kp COMMA     &kp DOT  &mt RIGHT_SHIFT SLASH        &kp EQUAL
+                                        &kp LEFT_ALT  &mo 2    &kp LEFT_CONTROL    &kp RET  &lt 3 SPACE  &kp LEFT_WIN
             >;
         };
 
         mac_main {
             bindings = <
-&kp TAB        &kp Q             &kp W  &kp E         &kp R    &kp T             &kp Y    &kp U        &kp I             &kp O    &kp P                    &kp ESCAPE
-&kp BACKSPACE  &mt LEFT_GUI A    &kp S  &kp D         &lt 5 F  &kp G             &kp H    &kp J        &kp K             &kp L    &mt RIGHT_GUI SEMICOLON  &kp APOSTROPHE
-&kp LEFT_GUI   &mt LEFT_SHIFT Z  &kp X  &kp C         &kp V    &kp B             &kp N    &kp M        &kp COMMA         &kp DOT  &mt RIGHT_SHIFT SLASH    &kp EQUAL
-                                        &kp LEFT_ALT  &mo 2    &kp LEFT_SHIFT    &kp RET  &lt 4 SPACE  &kp LEFT_CONTROL
+&kp TAB        &kp Q             &kp W  &kp E         &kp R    &kp T           &kp Y    &kp U        &kp I             &kp O    &kp P                    &kp ESCAPE
+&kp BACKSPACE  &kp A             &kp S  &kp D         &lt 5 F  &kp G           &kp H    &kp J        &kp K             &kp L    &mt RIGHT_GUI SEMICOLON  &kp APOSTROPHE
+&kp DELETE     &mt LEFT_SHIFT Z  &kp X  &kp C         &kp V    &kp B           &kp N    &kp M        &kp COMMA         &kp DOT  &mt RIGHT_SHIFT SLASH    &kp EQUAL
+                                        &kp LEFT_ALT  &mo 2    &kp LEFT_GUI    &kp RET  &lt 4 SPACE  &kp LEFT_CONTROL
             >;
         };
 
