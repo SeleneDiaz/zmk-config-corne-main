@@ -21,19 +21,19 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E         &kp R    &kp T                      &kp Y        &kp U        &kp I         &kp O    &kp P          &kp EQUAL
-&kp BACKSPACE   &kp A  &kp S  &kp D         &lt 5 F  &kp G                      &kp H        &kp J        &kp K         &kp L    &kp SEMICOLON  &kp APOSTROPHE
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V    &kp B                      &kp N        &kp M        &kp COMMA     &kp DOT  &kp SLASH      &kp RIGHT_SHIFT
-                              &kp LEFT_ALT  &mo 2    &mt LEFT_CONTROL ESCAPE    &lt 5 ENTER  &lt 3 SPACE  &kp LEFT_WIN
+&kp TAB           &kp Q  &kp W  &kp E         &kp R  &kp T                      &kp Y                  &kp U        &kp I          &kp O    &kp P          &kp EQUAL
+&kp BACKSPACE     &kp A  &kp S  &lt 5 D       &kp F  &kp G                      &kp H                  &kp J        &kp K          &kp L    &kp SEMICOLON  &kp APOSTROPHE
+&kp LEFT_BRACKET  &kp Z  &kp X  &kp C         &kp V  &kp B                      &kp N                  &kp M        &kp COMMA      &kp DOT  &kp SLASH      &kp RIGHT_BRACKET
+                                &kp LEFT_WIN  &mo 2  &mt LEFT_CONTROL ESCAPE    &mt RIGHT_SHIFT ENTER  &lt 3 SPACE  &kp RIGHT_ALT
             >;
         };
 
         mac_main {
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E         &kp R    &kp T                  &kp Y        &kp U        &kp I             &kp O    &kp P          &kp EQUAL
-&kp BACKSPACE   &kp A  &kp S  &kp D         &lt 5 F  &kp G                  &kp H        &kp J        &kp K             &kp L    &kp SEMICOLON  &kp APOSTROPHE
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V    &kp B                  &kp N        &kp M        &kp COMMA         &kp DOT  &kp SLASH      &kp RIGHT_SHIFT
-                              &kp LEFT_ALT  &mo 2    &mt LEFT_GUI ESCAPE    &lt 5 ENTER  &lt 4 SPACE  &kp LEFT_CONTROL
+&kp TAB           &kp Q  &kp W  &kp E             &kp R  &kp T                  &kp Y                  &kp U        &kp I          &kp O    &kp P          &kp EQUAL
+&kp BACKSPACE     &kp A  &kp S  &lt 5 D           &kp F  &kp G                  &kp H                  &kp J        &kp K          &kp L    &kp SEMICOLON  &kp APOSTROPHE
+&kp LEFT_BRACKET  &kp Z  &kp X  &kp C             &kp V  &kp B                  &kp N                  &kp M        &kp COMMA      &kp DOT  &kp SLASH      &kp RIGHT_BRACKET
+                                &kp LEFT_CONTROL  &mo 2  &mt LEFT_GUI ESCAPE    &mt RIGHT_SHIFT ENTER  &lt 4 SPACE  &kp RIGHT_ALT
             >;
         };
 
@@ -45,10 +45,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp BACKSLASH  &kp EXCL          &kp AT          &kp POUND        &kp DOLLAR         &kp PERCENT    &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS
-&kp COLON      &kp NUMBER_1      &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4       &kp N5         &kp N6          &kp N7         &kp N8        &kp N9                &kp N0                 &kp MINUS
-&kp GRAVE      &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &none          &kp UNDERSCORE  &kp PIPE       &trans        &trans                &trans                 &kp TILDE
-                                                 &trans           &trans             &trans         &trans          &trans         &tog 1
+&kp BACKSLASH     &kp EXCL        &kp AT         &kp POUND         &kp DOLLAR       &kp PERCENT    &kp CARET  &kp AMPERSAND   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS
+&kp COLON         &kp NUMBER_1    &kp NUMBER_2   &kp NUMBER_3      &kp NUMBER_4     &kp N5         &kp N6     &kp N7          &kp N8        &kp N9                &kp N0                 &kp MINUS
+&kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &kp RIGHT_BRACE  &kp TILDE      &kp GRAVE  &kp PIPE        &kp COMMA     &kp PERIOD            &kp SLASH              &kp RIGHT_BRACKET
+                                                 &trans            &trans           &trans         &trans     &kp UNDERSCORE  &tog 1
             >;
         };
 
@@ -60,19 +60,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp LEFT_PARENTHESIS  &trans  &trans  &kp RIGHT_PARENTHESIS  &trans    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans           &trans
-&trans  &kp LEFT_BRACE        &trans  &trans  &kp RIGHT_BRACE        &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp DELETE       &trans
-&trans  &kp LEFT_BRACKET      &trans  &trans  &kp RIGHT_BRACKET      &trans    &trans          &trans          &trans        &trans           &kp PRINTSCREEN  &trans
-                                      &trans  &trans                 &trans    &trans          &trans          &trans
+&trans  &trans                  &trans  &trans  &trans                   &trans                &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp PRINTSCREEN  &trans
+&trans  &kp LG(LC(LEFT_ARROW))  &trans  &trans  &kp LG(LC(RIGHT_ARROW))  &trans                &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp DELETE       &trans
+&trans  &kp LEFT_CONTROL        &trans  &trans  &trans                   &kp LA(LC(DELETE))    &trans          &trans          &trans        &trans           &trans           &trans
+                                        &trans  &trans                   &kp LEFT_SHIFT        &trans          &trans          &trans
             >;
         };
 
         mac_arrows_functions {
             bindings = <
-&trans  &kp LEFT_PARENTHESIS  &trans  &trans  &kp RIGHT_PARENTHESIS  &trans          &kp LG(LEFT_ARROW)  &kp PAGE_DOWN   &kp PAGE_UP   &kp LG(RIGHT_ARROW)  &trans                &trans
-&trans  &kp LEFT_BRACE        &trans  &trans  &kp RIGHT_BRACE        &trans          &kp LEFT_ARROW      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW      &kp DELETE            &trans
-&trans  &kp LEFT_BRACKET      &trans  &trans  &kp RIGHT_BRACKET      &trans          &trans              &trans          &trans        &trans               &kp LS(LG(NUMBER_4))  &trans
-                                      &trans  &trans                 &kp LEFT_ALT    &trans              &trans          &trans
+&trans  &trans        &trans  &trans  &trans  &trans            &kp LG(LEFT_ARROW)  &kp PAGE_DOWN   &kp PAGE_UP   &kp LG(RIGHT_ARROW)  &kp LS(LG(NUMBER_4))  &trans
+&trans  &trans        &trans  &trans  &trans  &trans            &kp LEFT_ARROW      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW      &kp DELETE            &trans
+&trans  &kp LEFT_ALT  &trans  &trans  &trans  &trans            &trans              &trans          &trans        &trans               &trans                &trans
+                              &trans  &trans  &kp LEFT_SHIFT    &trans              &trans          &trans
             >;
         };
 
@@ -81,7 +81,7 @@
 &bt BT_CLR    &kp F9  &kp F10  &kp F11       &kp F12  &bt BT_SEL 2    &none      &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp SLASH
 &bt BT_SEL 0  &kp F5  &kp F6   &kp F7        &kp F8   &bt BT_SEL 3    &none      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS      &kp MINUS
 &bt BT_SEL 1  &kp F1  &kp F2   &kp F3        &kp F4   &bt BT_SEL 4    &none      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT       &kp COLON
-                               &out OUT_TOG  &trans   &none           &kp EQUAL  &kp N0        &none
+                               &out OUT_TOG  &none    &none           &kp EQUAL  &kp N0        &none
             >;
         };
     };
