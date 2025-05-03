@@ -30,10 +30,10 @@
 
         mac_main {
             bindings = <
-&kp TAB           &kp Q  &kp W  &kp E             &kp R  &kp T                  &kp Y                  &kp U        &kp I          &kp O    &kp P          &kp EQUAL
-&kp BACKSPACE     &kp A  &kp S  &lt 5 D           &kp F  &kp G                  &kp H                  &kp J        &kp K          &kp L    &kp SEMICOLON  &kp APOSTROPHE
-&kp LEFT_BRACKET  &kp Z  &kp X  &kp C             &kp V  &kp B                  &kp N                  &kp M        &kp COMMA      &kp DOT  &kp SLASH      &kp RIGHT_BRACKET
-                                &kp LEFT_CONTROL  &mo 2  &mt LEFT_GUI ESCAPE    &mt RIGHT_SHIFT ENTER  &lt 4 SPACE  &kp RIGHT_ALT
+&trans  &trans  &trans  &trans            &trans  &trans                 &trans  &trans       &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans            &trans  &trans                 &trans  &trans       &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans            &trans  &trans                 &trans  &trans       &trans  &trans  &trans  &trans
+                        &kp LEFT_CONTROL  &trans  &mt LEFT_GUI ESCAPE    &trans  &lt 4 SPACE  &trans
             >;
         };
 
@@ -45,10 +45,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp BACKSLASH     &kp EXCL        &kp AT         &kp POUND         &kp DOLLAR       &kp PERCENT    &kp CARET  &kp AMPERSAND   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS
-&kp COLON         &kp NUMBER_1    &kp NUMBER_2   &kp NUMBER_3      &kp NUMBER_4     &kp N5         &kp N6     &kp N7          &kp N8        &kp N9                &kp N0                 &kp MINUS
-&kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &kp RIGHT_BRACE  &kp TILDE      &kp GRAVE  &kp PIPE        &kp COMMA     &kp PERIOD            &kp SLASH              &kp RIGHT_BRACKET
-                                                 &trans            &trans           &trans         &trans     &kp UNDERSCORE  &tog 1
+&kp BACKSLASH     &kp EXCL        &kp AT         &kp POUND         &kp DOLLAR       &kp PERCENT    &kp CARET      &kp AMPERSAND   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS
+&kp COLON         &kp NUMBER_1    &kp NUMBER_2   &kp NUMBER_3      &kp NUMBER_4     &kp N5         &kp N6         &kp N7          &kp N8        &kp N9                &kp N0                 &kp MINUS
+&kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &kp RIGHT_BRACE  &kp TILDE      &kp GRAVE      &kp PIPE        &kp COMMA     &kp PERIOD            &kp SLASH              &kp RIGHT_BRACKET
+                                                 &trans            &trans           &trans         &kp LS(ENTER)  &kp UNDERSCORE  &tog 1
             >;
         };
 
@@ -60,10 +60,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans                  &trans  &trans  &trans                   &trans                &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp PRINTSCREEN  &trans
-&trans  &kp LG(LC(LEFT_ARROW))  &trans  &trans  &kp LG(LC(RIGHT_ARROW))  &trans                &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp DELETE       &trans
-&trans  &kp LEFT_CONTROL        &trans  &trans  &trans                   &kp LA(LC(DELETE))    &trans          &trans          &trans        &trans           &trans           &trans
-                                        &trans  &trans                   &kp LEFT_SHIFT        &trans          &trans          &trans
+&trans  &trans                  &trans  &trans              &trans                   &trans            &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp PRINTSCREEN  &trans
+&trans  &kp LG(LC(LEFT_ARROW))  &trans  &trans              &kp LG(LC(RIGHT_ARROW))  &trans            &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp DELETE       &trans
+&trans  &kp LEFT_CONTROL        &trans  &trans              &trans                   &trans            &trans          &trans          &trans        &trans           &trans           &trans
+                                        &kp LA(LC(DELETE))  &trans                   &kp LEFT_SHIFT    &trans          &trans          &trans
             >;
         };
 
